@@ -8,13 +8,13 @@ import CoreConcepts from './components/CoreConcepts';
 function App() {
 
   return (
-    <div>
+    <>
       <Header/>
       <main>
         <CoreConcepts />
         <Examples/>
       </main>
-    </div>
+    </>
   );
 }
 
